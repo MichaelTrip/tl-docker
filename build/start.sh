@@ -23,7 +23,7 @@ apt-get install -yq \
     net-tools \
     python-apt \
     python \
-    ubuntu-desktop
+    xubuntu-desktop
 apt-get -qq clean
 apt-get -qq autoremove 
 
