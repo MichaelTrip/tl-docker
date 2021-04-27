@@ -23,9 +23,9 @@ apt-get install -yq \
     net-tools \
     python-apt \
     python \
-    xubuntu-desktop
+    ubuntu-mate-desktop
 apt-get -qq clean
-apt-get -qq autoremove 
+apt-get -qq autoremove
 
 # disable services we do not need
 systemctl disable gdm systemd-modules-load fstrim.timer fstrim e2scrub_reap e2scrub_all e2scrub_all.timer
